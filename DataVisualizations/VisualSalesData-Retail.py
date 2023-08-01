@@ -46,7 +46,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the data from the CSV file into a Pandas data frame
-df = pd.read_csv('/Users/benjaminadams/Downloads/777_m5_datasets_v1.0 2/BigMartSalesData.csv')
+df = pd.read_csv('')
 
 # Convert the date column to a datetime data type
 df['date'] = pd.to_datetime(df['Day'])
