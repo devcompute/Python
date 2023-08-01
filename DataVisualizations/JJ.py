@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 # Load the sales data from the CSV file
-df = pd.read_csv('/Users/benjaminadams/Downloads/777_m5_datasets_v1.0 2/BigMartSalesData.csv')
+df = pd.read_csv('')
 
 # Convert the 'Year-Month' column to a datetime and set it as the index
 df['Year'] = pd.to_datetime(df['Year'])
