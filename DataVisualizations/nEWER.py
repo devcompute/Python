@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the CSV file into a dataframe
-df = pd.read_csv("/Users/benjaminadams/Downloads/777_m5_datasets_v1.0 2/sample-salesv2.csv")
+df = pd.read_csv("")
 
 # Get the number of rows and columns
 print(df.shape)
