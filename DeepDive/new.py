@@ -10,7 +10,7 @@ def get_professions_and_ages():
     max_ages = {}
 
     # Open the CSV file and read the professions and ages
-    with open('/Users/benjaminadams/Downloads/777_m3_datasets_v1.0/bank-data.csv', 'r') as f:
+    with open('', 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
             profession = row['profession']
