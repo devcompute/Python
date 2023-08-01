@@ -75,10 +75,10 @@ def create_order(customer, product_name, product_code):
 def save_to_database(order):
     pass
 
-df = pd.read_csv('/Users/benjaminadams/Downloads/777_m3_datasets_v1.0/FairDealCustomerData.csv')
+df = pd.read_csv('')
 
 # Read the FairDeal customer data from the CSV file
-with open('/Users/benjaminadams/Downloads/777_m3_datasets_v1.0/FairDealCustomerData.csv', 'r') as f:
+with open('', 'r') as f:
     reader = csv.DictReader(f)
     for row in reader:
         name = row['Name']
